@@ -10,6 +10,7 @@
 #import "CustomTableViewCell.h"
 #import <UITableView+FDTemplateLayoutCell.h>
 #import "TestHeightModel.h"
+#import "TestDeveloViewController.h"
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic)UITableView *tableView;
 @property(nonatomic)NSMutableArray *dataSOurce;
@@ -41,6 +42,13 @@
     [self setupModelOfCell:cell AtIndexPath:indexPath];
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    TestDeveloViewController *testDevelop = [[TestDeveloViewController alloc]init];
+    [self.navigationController pushViewController:testDevelop animated:YES];
+}
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.dataSOurce.count;
