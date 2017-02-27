@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		80A3775F1E062875008AC7A7 /* TestHeightModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A3775E1E062875008AC7A7 /* TestHeightModel.m */; };
 		80D67C061E6401CA005B6CB6 /* TestDeveloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D67C051E6401CA005B6CB6 /* TestDeveloViewController.m */; };
+		80D67C091E64054E005B6CB6 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D67C081E64054E005B6CB6 /* MasterViewController.m */; };
 		80EE9C861E03CF920055CC53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EE9C851E03CF920055CC53 /* main.m */; };
 		80EE9C891E03CF920055CC53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EE9C881E03CF920055CC53 /* AppDelegate.m */; };
 		80EE9C8C1E03CF920055CC53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EE9C8B1E03CF920055CC53 /* ViewController.m */; };
@@ -44,6 +45,8 @@
 		80A3775E1E062875008AC7A7 /* TestHeightModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHeightModel.m; sourceTree = "<group>"; };
 		80D67C041E6401CA005B6CB6 /* TestDeveloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDeveloViewController.h; sourceTree = "<group>"; };
 		80D67C051E6401CA005B6CB6 /* TestDeveloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDeveloViewController.m; sourceTree = "<group>"; };
+		80D67C071E64054E005B6CB6 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		80D67C081E64054E005B6CB6 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		80EE9C811E03CF920055CC53 /* TestFD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EE9C851E03CF920055CC53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		80EE9C871E03CF920055CC53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 				80EE9C921E03CF920055CC53 /* LaunchScreen.storyboard */,
 				80EE9C951E03CF920055CC53 /* Info.plist */,
 				80EE9C841E03CF920055CC53 /* Supporting Files */,
+				80D67C071E64054E005B6CB6 /* MasterViewController.h */,
+				80D67C081E64054E005B6CB6 /* MasterViewController.m */,
 			);
 			path = TestFD;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				80D67C061E6401CA005B6CB6 /* TestDeveloViewController.m in Sources */,
 				80EE9CBA1E03D8BA0055CC53 /* CustomTableViewCell.m in Sources */,
 				80EE9C861E03CF920055CC53 /* main.m in Sources */,
+				80D67C091E64054E005B6CB6 /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

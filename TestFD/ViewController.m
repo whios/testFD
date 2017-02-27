@@ -11,6 +11,7 @@
 #import <UITableView+FDTemplateLayoutCell.h>
 #import "TestHeightModel.h"
 #import "TestDeveloViewController.h"
+#import "MasterViewController.h"
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic)UITableView *tableView;
 @property(nonatomic)NSMutableArray *dataSOurce;
@@ -45,7 +46,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    TestDeveloViewController *testDevelop = [[TestDeveloViewController alloc]init];
+    MasterViewController *testDevelop = [[MasterViewController alloc]init];
     [self.navigationController pushViewController:testDevelop animated:YES];
 }
 
